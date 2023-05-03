@@ -261,12 +261,14 @@ print("Encoded message:", encoded_message)
 # ---------------------------------------
 
 # (3.d)
+
 encrypted_message = [encrypt(number, public_key) for number in encoded_message]
 print("Encrypted message:", encrypted_message)
 
 # ---------------------------------------
 
 # (3.e)
+
 def numbers_to_text(numbers, alphabet):
   text = []
   for number in numbers:
